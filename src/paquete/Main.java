@@ -50,5 +50,8 @@ public class Main {
         plane.setEngineStatus(true);
         plane.setEngineStatus(false);
 
+        Tshirt ts = new Tshirt("Adiddas", "Blue", "M", 80000, true);
+        System.out.println("T-shirt - " + ts.getBrand() + " Price: " + ts.getPrice());
+        ts.ApplyDiscount(20);
     }
 }
