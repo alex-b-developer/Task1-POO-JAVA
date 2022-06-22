@@ -2,6 +2,7 @@ package paquete;
 import paquete.Person;
 import paquete.Fruit;
 import paquete.BankAccount;
+import paquete.*;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -30,7 +31,6 @@ public class Main {
         colors.add("Amarillo");
         colors.add("Rojo");
         colors.add("Naranja");
-
         f.setColors(colors);
 
         System.out.println(f.getName());
@@ -39,9 +39,12 @@ public class Main {
 
         BankAccount ba = new BankAccount(125877555);
         ba.setActivated(true);
-
         System.out.println(ba.getAccountNumber());
         System.out.println(ba.getActivated());
+
+        MobileDevice md = new MobileDevice("iPhone", "12 pro max", "Black", 25544755);
+        md.setPhoneNumber(31487345);
+        md.makeCall(325588755);
 
     }
 }
