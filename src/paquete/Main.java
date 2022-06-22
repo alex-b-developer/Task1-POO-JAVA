@@ -1,5 +1,8 @@
 package paquete;
 import paquete.Person;
+import paquete.Fruit;
+
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Main {
@@ -18,5 +21,19 @@ public class Main {
         System.out.println("Height: " + p.getHeight());
 
 
+        Fruit f = new Fruit();
+        f.setName("Mango");
+        f.setAverageWeight(2.2f);
+
+        ArrayList<String> colors = new ArrayList<String>();
+        colors.add("Amarillo");
+        colors.add("Rojo");
+        colors.add("Naranja");
+
+        f.setColors(colors);
+
+        System.out.println(f.getName());
+        System.out.println(f.getAverageWeight());
+        System.out.println(f.getColors());
     }
 }
