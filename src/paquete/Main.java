@@ -1,6 +1,7 @@
 package paquete;
 import paquete.Person;
 import paquete.Fruit;
+import paquete.BankAccount;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -35,5 +36,12 @@ public class Main {
         System.out.println(f.getName());
         System.out.println(f.getAverageWeight());
         System.out.println(f.getColors());
+
+        BankAccount ba = new BankAccount(125877555);
+        ba.setActivated(true);
+
+        System.out.println(ba.getAccountNumber());
+        System.out.println(ba.getActivated());
+
     }
 }
