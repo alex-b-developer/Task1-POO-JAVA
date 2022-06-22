@@ -46,5 +46,9 @@ public class Main {
         md.setPhoneNumber(31487345);
         md.makeCall(325588755);
 
+        Airplane plane = new Airplane("Airbus 240", 4, 240);
+        plane.setEngineStatus(true);
+        plane.setEngineStatus(false);
+
     }
 }
