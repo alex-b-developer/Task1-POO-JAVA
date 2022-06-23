@@ -1,18 +1,35 @@
 package paquete;
 
+/**
+ * This is the Airplane Class
+ * @author Alex Betancur
+ */
+
 public class Airplane {
 
+    /**
+     * attributes:
+     */
     public String model;
     private int engineNumbers;
     public int seatNumbers;
     protected boolean engineStatus;
 
+    /**
+     * This is the constructor
+     * @param model
+     * @param engineNumbers
+     * @param seatNumbers
+     */
     public Airplane(String model, int engineNumbers, int seatNumbers){
         this.model = model;
         this.engineNumbers = engineNumbers;
         this.seatNumbers = seatNumbers;
     }
 
+    /**
+     * methods:
+     */
     public int getSeatNumbers() {
         return seatNumbers;
     }

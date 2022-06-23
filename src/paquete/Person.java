@@ -1,13 +1,28 @@
 package paquete;
 import java.util.Date;
 
+/**
+ * This is the Person Class
+ * @author Alex Betancur
+ */
 public class Person {
-    String name;
-    String lastName1;
-    String lastName2;
-    Date dateBirth;
-    float height;
 
+    /**
+     * attributes:
+     */
+    public String name;
+    public String lastName1;
+    public String lastName2;
+    public Date dateBirth;
+    public float height;
+
+    /**
+     * This is the constructor
+     * @param name
+     * @param lastName1
+     * @param lastName2
+     * @param date
+     */
     public Person(String name, String lastName1, String lastName2, Date date){
         this.name = name;
         this.lastName1 = lastName1;
@@ -15,6 +30,9 @@ public class Person {
         this.dateBirth = date;
     }
 
+    /**
+     * methods:
+     */
     public void setName(String name){
         this.name = name;
     }

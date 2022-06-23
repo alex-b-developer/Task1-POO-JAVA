@@ -1,15 +1,29 @@
 package paquete;
 import java.util.ArrayList;
 
+/**
+ * This is the Fruit Class
+ * @author Alex Betancur
+ */
 public class Fruit {
 
+    /**
+     * attributes:
+     */
     public String name;
     private float averageWeight;
     public ArrayList<String> colors;
 
+
+    /**
+     * this is the constructor
+     */
     public Fruit() {
     }
 
+    /**
+     * methods:
+     */
     public void setName(String name){
         this.name = name;
     }

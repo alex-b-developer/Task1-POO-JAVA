@@ -1,12 +1,29 @@
 package paquete;
 
+/**
+ * This is the Tshirt Class
+ * @author Alex Betancur
+ */
 public class Tshirt {
+
+    /**
+     * attributes:
+     */
     public String brand;
     public String color;
     protected String size;
     public int price;
     private  boolean availability;
 
+
+    /**
+     * This is the constructor
+     * @param brand
+     * @param color
+     * @param size
+     * @param price
+     * @param availability
+     */
     public Tshirt(String brand, String color, String size, int price, boolean availability){
         this.brand = brand;
         this.color = color;
@@ -15,6 +32,9 @@ public class Tshirt {
         this.availability = availability;
     }
 
+    /**
+     * methods:
+     */
     public String getBrand() {
         return brand;
     }
